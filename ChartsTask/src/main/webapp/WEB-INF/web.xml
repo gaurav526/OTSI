@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ChartsServlet</servlet-name>
+  	<display-name>ChartsServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.otsi.controller.ChartsServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClickServlet</servlet-name>
+  	<display-name>ClickServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.otsi.controller.ClickServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ChartsServlet</servlet-name>
+  	<url-pattern>/Charts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClickServlet</servlet-name>
+  	<url-pattern>/Click</url-pattern>
+  </servlet-mapping>
+</web-app>
